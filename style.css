@@ -107,7 +107,8 @@
   background-color: #fff;
   background-image: url(./Microverse-Student-Project-1/header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 80%;
+  background-position: 85% 44%;
   border-radius: 0 0 0 56px;
   display: flex;
   flex-direction: column;
