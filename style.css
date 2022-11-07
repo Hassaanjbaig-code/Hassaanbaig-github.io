@@ -49,7 +49,7 @@
   align-items: center;
   color: #6070ff;
   font-size: 18px;
-  /* position: fixed; */
+  position: fixed;
 }
 
 .navbar-1 a {

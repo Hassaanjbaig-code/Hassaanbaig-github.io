@@ -110,8 +110,12 @@ npx stylelint "**/*.{css,scss}"
 ## Checking 
 This is the screenshot that all the thing is okay
 
+   https://user-images.githubusercontent.com/80938128/200326153-7d174ec9-e7ee-40c1-bacb-1262f2073ff5.png
+
 ## Live 
-     
+     https://hassaanjbaig-code.github.io/Hassaanbaig-github.io/
+
+    Click it
 
 ## Authors
 
