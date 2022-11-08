@@ -41,7 +41,7 @@
 .navbar-1 {
   background-color: #fff;
   height: 92px;
-  width: 100%;
+  width: 373px;
   display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -87,6 +87,7 @@
   list-style: none;
   flex-basis: 100px;
   background-color: #fff;
+  padding-right: 20px;
 }
 
 /* This is the icon area */
@@ -95,6 +96,7 @@
   list-style: none;
   flex-basis: 40px;
   background-color: #fff;
+  padding-left: 20px;
 }
 
 .material-symbols-outlined {
@@ -149,6 +151,7 @@
   color: #7f8cff;
   font-family: 'Poppins', sans-serif;
   background-color: #fff;
+  font-weight: 600;
 }
 
 .icon {
@@ -264,7 +267,7 @@
 }
 
 /* It show the heading design where grid column show that are 3 column */
-.card-name-h1 h1 {
+.card-name-h1 h2 {
   color: #172840;
   font-size: 32px;
 }
@@ -335,7 +338,8 @@
   grid-column-start: 0;
 }
 
-.button button {
+.button button,
+.button-1 button {
   font-size: 17px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
@@ -386,7 +390,7 @@
   grid-template-rows: auto;
 }
 
-.heading h1 {
+.heading h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 43px;
   font-weight: 800;
@@ -553,7 +557,7 @@ form legend {
   resize: none;
   font-size: 18px;
   font-weight: 400;
-  color: #b3bac5;
+  color: black;
 }
 
 #Submit {
@@ -588,6 +592,10 @@ form legend {
   .container {
     width: 100%;
     height: 716px;
+  }
+
+  .navbar-1 {
+    width: 100%;
   }
 
   .whole-main {
@@ -709,6 +717,10 @@ form legend {
     display: none;
   }
 
+  .margin {
+    margin-left: 0;
+  }
+
   .img-1 {
     width: auto;
     height: auto;
@@ -745,7 +757,7 @@ form legend {
     height: 445px;
   }
 
-  .card-name-h1 h1 {
+  .card-name-h1 h2 {
     font-style: normal;
     color: #091e42;
     line-height: 52px;
@@ -935,7 +947,7 @@ form legend {
     grid-template-rows: auto;
   }
 
-  .heading h1 {
+  .heading h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -963,6 +975,7 @@ form legend {
     color: #7f8cff;
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
   }
 
   .left-2 {
@@ -1054,7 +1067,7 @@ form legend {
     resize: none;
     font-size: 15px;
     font-weight: 400;
-    color: #b3bac5;
+    color: black;
   }
 
   #Submit {
@@ -1187,7 +1200,7 @@ form legend {
     margin-left: 38px;
   }
 
-  .card-name-h1 h1 {
+  .card-name-h1 h2 {
     font-style: normal;
     color: #091e42;
     line-height: 52px;
@@ -1342,6 +1355,10 @@ form legend {
     color: #6070ff;
   }
 
+  .margin {
+    margin-left: 0;
+  }
+
   .social-media li {
     list-style: none;
     background-color: #fff;
@@ -1399,6 +1416,7 @@ form legend {
     color: #7f8cff;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
+    font-weight: 600;
   }
 
   .social-media {
@@ -1501,7 +1519,7 @@ form legend {
     height: 373px;
   }
 
-  .card-name-h1 h1 {
+  .card-name-h1 h2 {
     font-style: normal;
     color: #091e42;
     line-height: 52px;
@@ -1613,7 +1631,7 @@ form legend {
     grid-template-rows: auto;
   }
 
-  .heading h1 {
+  .heading h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -1716,7 +1734,7 @@ form legend {
     resize: none;
     font-size: 15px;
     font-weight: 400;
-    color: #b3bac5;
+    color: black;
   }
 
   #Submit {
