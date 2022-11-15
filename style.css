@@ -1429,6 +1429,10 @@ form legend {
     color: #6070ff;
   }
 
+  .hidden {
+    display: none;
+  }
+
   .social-media li {
     list-style: none;
     background-color: #fff;
