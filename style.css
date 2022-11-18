@@ -272,7 +272,7 @@ nav.navigation.active a li {
 /* The space that the card is taking  */
 .card {
   width: 327px;
-  height: 552px;
+  height: 590px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
   padding: 8px;
@@ -1341,7 +1341,7 @@ form legend {
 
   .button {
     display: grid;
-    grid-template-columns: 139px auto auto auto auto auto auto auto;
+    grid-template-columns: 158px auto auto auto auto auto auto auto;
   }
 
   .button button {

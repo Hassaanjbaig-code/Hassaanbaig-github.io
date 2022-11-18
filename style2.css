@@ -179,14 +179,17 @@
     width: 94%;
     height: 94%;
   }
+
   .popup-image {
     height: 596px;
     margin-bottom: 3px;
   }
+
   .main-des {
     display: flex;
     width: 100%;
   }
+
   .popup-para {
     width: 74%;
     height: 222px;
