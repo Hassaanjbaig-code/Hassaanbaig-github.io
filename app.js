@@ -40,7 +40,6 @@ const projectdata = [
 function fetchOneProject(id) {
   const projects = projectdata;
   let project = {};
-  //   for (const i of projects) {
   projects.forEach((i) => {
     if (i.id === id) {
       project = i;
@@ -139,8 +138,6 @@ function fetchOneProject(id) {
     });
   }
 }
-
-// console.log(fetchOneProject("Portfolio"))
 
 const connect = document.querySelectorAll('.connect');
 
