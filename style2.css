@@ -20,7 +20,7 @@
   top: 0;
   position: fixed;
   overflow: scroll;
-  background: #C1C7D0;
+  background: #c1c7d0;
   margin-top: 25px;
 }
 
@@ -218,14 +218,14 @@
   }
 }
 
-@media screen and (min-width: 1412px){
+@media screen and (min-width: 1412px) {
   .main-branch-1 {
     height: 1129px;
     width: 1156px;
     border-radius: 16px;
     margin: 10px 6%;
   }
-  
+
   .heading-pop {
     margin-top: 21px;
   }
@@ -233,11 +233,11 @@
   .popup-image {
     height: 586px;
     width: 1108px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 8px;
-
   }
+
   .main-des {
     height: 100%;
     width: 100%;
@@ -247,6 +247,7 @@
     line-height: 38px;
     font-style: 'Poppins';
   }
+
   .mobile {
     display: none;
   }

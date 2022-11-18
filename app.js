@@ -100,7 +100,7 @@ function fetchOneProject(id) {
     );
 
     project.language.forEach((lang) => {
-      const langli = document.createElement("li");
+      const langli = document.createElement('li');
       langli.innerText = lang;
       poplang.appendChild(langli);
     });
