@@ -621,6 +621,10 @@ form legend {
   color: #b3bac5;
 }
 
+.error {
+  color: red;
+}
+
 #Submit {
   font-size: 18px;
   width: 140px;
