@@ -78,10 +78,14 @@ nav.navigation.active {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #6060ff;
-  height: 647px;
+  background: rgba(96, 112, 255, 0.8);
+  height: 100vh;
   width: 100%;
-  opacity: 89%;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+  /* -webkit-backdrop-filter: blur(10px); */
+  backdrop-filter: blur(4px);
 }
 
 .social-media li {
