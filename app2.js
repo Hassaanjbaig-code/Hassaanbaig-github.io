@@ -10,5 +10,5 @@ function validation() {
   return true;
 }
 
-const submitButton = document.getElementById('Submit');
-submitButton.addEventListener('click', validation);
+// const submitButton = document.getElementById('Submit');
+// submitButton.addEventListener('click', validation);
