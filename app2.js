@@ -9,3 +9,6 @@ function validation() {
   error.textContent = '';
   return true;
 }
+
+const submitButton = document.getElementById('Submit');
+submitButton.addEventListener('click', validation);
