@@ -78,10 +78,11 @@ nav.navigation.active {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #6060ff;
-  height: 647px;
+  background: rgba(96, 112, 255, 0.8);
+  height: 100vh;
   width: 100%;
-  opacity: 89%;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .social-media li {
@@ -272,7 +273,7 @@ nav.navigation.active a li {
 /* The space that the card is taking  */
 .card {
   width: 327px;
-  height: 552px;
+  height: 590px;
   border: 1px solid #dfe1e6;
   background-color: #fff;
   padding: 8px;
@@ -1341,7 +1342,7 @@ form legend {
 
   .button {
     display: grid;
-    grid-template-columns: 139px auto auto auto auto auto auto auto;
+    grid-template-columns: 158px auto auto auto auto auto auto auto;
   }
 
   .button button {
