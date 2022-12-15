@@ -38,7 +38,6 @@
   top: 53px;
   left: 0;
   right: 0;
-  margin: 10px 8px;
 }
 
 .heading-pop {
@@ -184,6 +183,9 @@
   .popup-language li {
     padding: 0.1rem 0.5rem;
   }
+  .mainhead {
+    height: 100vh;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -194,7 +196,8 @@
     right: 0;
     margin: 10px 20px;
     width: 94%;
-    height: 101%;
+    height: 109vh;
+    margin: 10px 8px;
   }
 
   .popup-image {
