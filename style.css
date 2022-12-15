@@ -159,6 +159,10 @@ nav.navigation.active a li {
   background-color: #fff;
 }
 
+.left {
+  font-size: 1.8rem;
+}
+
 /* This is the icon area */
 
 .right {
@@ -170,14 +174,6 @@ nav.navigation.active a li {
   /* background-color: #fff; */
   cursor: pointer;
   list-style: none;
-}
-
-/* For the mobile version icon  */
-
-.togglebox {
-  display: flex;
-  width: 79%;
-  justify-content: flex-end;
 }
 
 /* Add bacgorund and also do flex as column wise */
@@ -565,7 +561,7 @@ nav.navigation.active a li {
   background-repeat: no-repeat;
   background-size: contain;
   height: 779px;
-  width: 100%;
+  width: 113%;
   border-top-left-radius: 109px 91px;
   display: flex;
   flex-direction: column;
@@ -739,7 +735,7 @@ form legend {
   }
 
   .left {
-    padding: 0 50px;
+    padding: 0 18px;
   }
 
   nav {
