@@ -8,15 +8,15 @@ function store(n, e, t) {
   localStorage.setItem('data', convert);
 }
 
-// function validation() {
-//   const email = document.getElementById('email');
-//   if (email.value !== email.value.toLowerCase()) {
-//     error.textContent = 'Email should be in lower case';
-//     return false;
-//   }
-//   error.textContent = '';
-//   return store(fname.value, email.value, text.value);
-// }
+function validation() {
+  const email = document.getElementById('email');
+  if (email.value !== email.value.toLowerCase()) {
+    error.textContent = 'Email should be in lower case';
+    return false;
+  }
+  error.textContent = '';
+  return store(fname.value, email.value, text.value);
+}
 
-// const submitButton = document.getElementById('Submit');
-// submitButton.addEventListener('click', validation);
+const submitButton = document.getElementById('Submit');
+submitButton.addEventListener('click', validation);
