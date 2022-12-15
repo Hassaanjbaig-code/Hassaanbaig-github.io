@@ -35,6 +35,7 @@
   padding: 0 10px;
   background-color: white;
   position: fixed;
+  overflow: auto;
   top: 53px;
   left: 0;
   right: 0;
@@ -197,7 +198,9 @@
     margin: 10px 20px;
     width: 94%;
     height: 109vh;
+    min-height: 120vh;
     margin: 10px 8px;
+    overflow: unset;
   }
 
   .popup-image {
@@ -223,7 +226,7 @@
 
 @media screen and (min-width: 1412px) {
   .main-branch-1 {
-    height: 1129px;
+    min-height: 137vh;
     width: 1156px;
     border-radius: 16px;
     margin: 10px 6%;

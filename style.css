@@ -39,7 +39,7 @@
 /* Giving the heigh */
 .container {
   height: 718px;
-  width: 375px;
+  /* width: 375px; */
 }
 
 .main-img-d {
@@ -60,7 +60,7 @@
 
 /* Design the navbar */
 .navbar-1 {
-  background-color: #fff;
+  background-color: transparent;
   height: 92px;
   width: 100%;
   display: flex;
@@ -164,7 +164,6 @@ nav.navigation.active a li {
 .right {
   list-style: none;
   flex-basis: 40px;
-  background-color: #fff;
 }
 
 .material-symbols-outlined {
@@ -271,7 +270,7 @@ nav.navigation.active a li {
   align-content: center;
   justify-content: space-evenly;
   padding: 16px;
-  width: 375px;
+  /* width: 375px; */
   height: 2788px;
   background-color: #e5e5e5;
 }
@@ -287,7 +286,6 @@ nav.navigation.active a li {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-  margin: 0 12px;
   transition: 1s all 1s;
 }
 
@@ -444,7 +442,7 @@ nav.navigation.active a li {
 }
 
 .About-myself {
-  width: 407px;
+  /* width: 407px; */
   height: 1125px;
   background-color: #fff;
   display: flex;
@@ -585,7 +583,7 @@ nav.navigation.active a li {
 .Contact-me {
   display: grid;
   grid-template-rows: 75px 190px 74px 77px 153px 28px;
-  padding: 0 12px;
+  /* padding: 0 12px; */
   text-align: center;
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -604,7 +602,7 @@ form legend {
 }
 
 .cont-input {
-  width: 327px;
+  width: 231px;
   height: 48px;
   border: 1px solid #cfd8dc;
   background-color: white;
@@ -615,7 +613,7 @@ form legend {
 }
 
 #Complaint {
-  width: 356px;
+  width: 268px;
   border-radius: 10px;
   border: 1px solid #6070ff;
   height: 140px;
