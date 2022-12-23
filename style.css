@@ -25,7 +25,6 @@
 .whole-main-1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .show {
@@ -40,7 +39,7 @@
 /* Giving the heigh */
 .container {
   height: 718px;
-  width: 375px;
+  /* width: 375px; */
 }
 
 .main-img-d {
@@ -61,7 +60,7 @@
 
 /* Design the navbar */
 .navbar-1 {
-  background-color: #fff;
+  background-color: transparent;
   height: 92px;
   width: 100%;
   display: flex;
@@ -160,26 +159,21 @@ nav.navigation.active a li {
   background-color: #fff;
 }
 
+.left {
+  font-size: 1.8rem;
+}
+
 /* This is the icon area */
 
 .right {
   list-style: none;
   flex-basis: 40px;
-  background-color: #fff;
 }
 
 .material-symbols-outlined {
   /* background-color: #fff; */
   cursor: pointer;
   list-style: none;
-}
-
-/* For the mobile version icon  */
-
-.togglebox {
-  display: flex;
-  width: 79%;
-  justify-content: flex-end;
 }
 
 /* Add bacgorund and also do flex as column wise */
@@ -272,7 +266,7 @@ nav.navigation.active a li {
   align-content: center;
   justify-content: space-evenly;
   padding: 16px;
-  width: 375px;
+  /* width: 375px; */
   height: 2788px;
   background-color: #e5e5e5;
 }
@@ -288,7 +282,6 @@ nav.navigation.active a li {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-  margin: 0 12px;
   transition: 1s all 1s;
 }
 
@@ -445,7 +438,7 @@ nav.navigation.active a li {
 }
 
 .About-myself {
-  width: 407px;
+  /* width: 407px; */
   height: 1125px;
   background-color: #fff;
   display: flex;
@@ -568,7 +561,7 @@ nav.navigation.active a li {
   background-repeat: no-repeat;
   background-size: contain;
   height: 779px;
-  width: 100%;
+  width: 113%;
   border-top-left-radius: 109px 91px;
   display: flex;
   flex-direction: column;
@@ -586,7 +579,7 @@ nav.navigation.active a li {
 .Contact-me {
   display: grid;
   grid-template-rows: 75px 190px 74px 77px 153px 28px;
-  padding: 0 12px;
+  /* padding: 0 12px; */
   text-align: center;
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -605,7 +598,7 @@ form legend {
 }
 
 .cont-input {
-  width: 327px;
+  width: 231px;
   height: 48px;
   border: 1px solid #cfd8dc;
   background-color: white;
@@ -616,7 +609,7 @@ form legend {
 }
 
 #Complaint {
-  width: 356px;
+  width: 268px;
   border-radius: 10px;
   border: 1px solid #6070ff;
   height: 140px;
@@ -742,7 +735,7 @@ form legend {
   }
 
   .left {
-    padding: 0 50px;
+    padding: 0 18px;
   }
 
   nav {
