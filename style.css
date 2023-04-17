@@ -129,6 +129,10 @@ nav.navigation.active a li {
   list-style: none;
 }
 
+.left {
+  font-size: 1.8rem;
+}
+
 .navbar a {
   text-decoration: none;
   color: #6070ff;
@@ -160,12 +164,6 @@ nav.navigation.active a li {
   flex-basis: 100px;
   background-color: #fff;
 }
-
-.left {
-  font-size: 1.8rem;
-}
-
-/* This is the icon area */
 
 .right {
   list-style: none;
@@ -202,7 +200,6 @@ nav.navigation.active a li {
   background-color: #fff;
 }
 
-/* Add the des which has flex that is flex grow, flex shrink, and flex basic */
 .main-header {
   flex: 0 1 97px;
   font-size: 29px;
@@ -268,6 +265,7 @@ nav.navigation.active a li {
   align-content: center;
   justify-content: space-evenly;
   padding: 16px;
+
   /* width: 375px; */
   height: 2788px;
   background-color: #e5e5e5;
@@ -325,14 +323,11 @@ nav.navigation.active a li {
 
 .img-4 {
   display: block;
-
-  /* background-image: url(./Pictures/Snapshoot\ Portfolio-4.png); */
   width: 295px;
   height: 220px;
   margin-left: 14px;
 }
 
-/* It is all the main portion that are heading, description, Frame, language button  */
 .card-main {
   display: grid;
   grid-template-rows: auto auto auto auto auto;
@@ -341,13 +336,11 @@ nav.navigation.active a li {
   font-family: 'Poppins', sans-serif;
 }
 
-/* It show the heading design where grid column show that are 3 column */
 .card-name-h1 h1 {
   color: #172840;
   font-size: 32px;
 }
 
-/* Using the grid template area we are assign the 1 row and 3 columns */
 .experience ul {
   display: grid;
   grid-template-areas: "a b c";
@@ -356,7 +349,6 @@ nav.navigation.active a li {
   font-weight: 600;
 }
 
-/* So this that we are assign some variable  */
 .a {
   grid-area: a;
   list-style: none;
@@ -581,6 +573,7 @@ nav.navigation.active a li {
 .Contact-me {
   display: grid;
   grid-template-rows: 75px 190px 74px 77px 153px 28px;
+
   /* padding: 0 12px; */
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -1249,6 +1242,7 @@ form legend {
     width: auto;
     height: auto;
     margin: 20px 0; */
+
   /* } */
 
   .img-2 {
