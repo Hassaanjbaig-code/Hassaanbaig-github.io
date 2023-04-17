@@ -36,14 +36,16 @@
   flex-direction: column;
 }
 
-/* Giving the heigh */
 .container {
   height: 718px;
-  /* width: 375px; */
 }
 
 .main-img-d {
   display: none;
+}
+
+.main-img-c {
+  width: 18rem;
 }
 
 .hidden {
@@ -561,7 +563,7 @@ nav.navigation.active a li {
   background-repeat: no-repeat;
   background-size: contain;
   height: 779px;
-  width: 113%;
+  width: 100%;
   border-top-left-radius: 109px 91px;
   display: flex;
   flex-direction: column;
@@ -790,11 +792,11 @@ form legend {
     display: none;
   }
 
-  .img-1 {
+  /* .img-1 {
     width: auto;
     height: auto;
     margin: 20px 0;
-  }
+  } */
 
   .img-2 {
     width: auto;
@@ -1243,11 +1245,11 @@ form legend {
     display: none;
   }
 
-  .img-1 {
+  /* .img-1 {
     width: auto;
     height: auto;
-    margin: 20px 0;
-  }
+    margin: 20px 0; */
+  /* } */
 
   .img-2 {
     width: 544px;
@@ -1562,7 +1564,6 @@ form legend {
   }
 
   .img-1 {
-    /* float: left; */
     width: auto;
     height: auto;
     margin: 10px 33px 0 0;
